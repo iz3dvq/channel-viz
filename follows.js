@@ -148,7 +148,7 @@
 										element: document.querySelector('#graph-' + feedId + '-' + datastream.id),
 										width: 600,
 										height: 200,
-										renderer: 'area',
+										renderer: 'line',
 										min: parseFloat(datastream.min_value) - .10*(parseFloat(datastream.min_value)),
 										max: parseFloat(datastream.max_value) + .001*(parseFloat(datastream.max_value)),
 										padding: {
